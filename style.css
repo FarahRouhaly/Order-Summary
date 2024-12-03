@@ -1,0 +1,113 @@
+body{
+    background-image: url(img/back.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-family: sans-serif
+  
+  
+}
+
+.parent{
+    background-color:  #fff;
+    width: 350px;
+  margin: auto;
+  text-align: center;
+  
+    }
+
+.boy{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.child-1{
+    padding: 20px;
+}
+
+h2{
+    color:  hsl(223, 47%, 23%);
+}
+p{
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%)
+}
+
+a{
+    font-size: small;
+}
+
+.plan{
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.child-2{
+    display: flex;
+ 
+    
+    
+}
+
+.music{
+    width:40px ;
+    height: 45px;
+}
+
+
+
+
+.text{
+    padding: 4px 10px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    }
+
+span:first-child{
+    color:  hsl(223, 47%, 23%);
+}
+span:last-child{
+    color:  hsl(224, 23%, 55%);
+}
+
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+ 
+}
+
+.btn-1{
+    background-color:  hsl(223, 47%, 23%);
+    color: #fff;
+    box-shadow: 0 0 10px blue;
+}
+
+.btn-2{
+    background-color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
